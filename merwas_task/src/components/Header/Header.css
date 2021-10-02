@@ -1,0 +1,45 @@
+.header-bar{
+    height: 60px;
+    background-color: #01B2EE;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.semi-header{
+    width: 100%;
+    max-width: 1355px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+#grab{
+    font-family: MuseoSans,sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.icons{
+display: flex;
+gap: 15px;
+}
+
+.icons-item{
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+}
+
+.nzme{
+    border-left: rgba(255, 255, 255, 0.5) 1px solid;
+    padding-left: 15px;
+    padding-right: 20px;
+    /* position: relative;
+    top: 50%;
+    transform: translateY(-50%); */
+}

@@ -1,0 +1,69 @@
+.navigation-bar {
+  /* background-color: violet; */
+  height: 60px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+}
+
+.semi-navigation {
+  width: 100%;
+  max-width: 1355px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* very important with line 8,, they make a full center element (margin:auto and display:flex for parent element)*/
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .semi-nav-elem {
+  display: flex;
+} */
+
+.semi-nav-elem-1 {
+  display: flex;
+  gap: 44px;
+  font-family: MuseoSans, sans-serif;
+}
+.semi-nav-elem-1-item {
+  display: flex;
+  align-items: center;
+}
+
+.semi-nav-elem-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: solid #d3d9e2 1px;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  /* max-width: 500px; */
+  width: 100%;
+}
+.search-div:focus-within {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.search-field {
+  border: none;
+  background-color: inherit;
+  height: 100%;
+  width: 100%;
+}
+
+.search-field:focus {
+  outline: none;
+}
